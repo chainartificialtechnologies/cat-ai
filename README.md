@@ -1,5 +1,7 @@
 # CAT-AI
 
+[English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md)
+
 🤖 A next-generation, modular AI agent framework for building autonomous systems that seamlessly interact across multiple platforms.
 
 ## Vision
