@@ -1,0 +1,10 @@
+title: CAT-AI Documentation
+description: Documentation for the CAT-AI framework
+theme: jekyll-theme-cayman
+baseurl: /cat-ai
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
