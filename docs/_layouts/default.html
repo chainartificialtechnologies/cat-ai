@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <!-- Add FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <img src="{{ site.logo }}" alt="{{ site.title }}" height="32">
+                {{ site.title }}
+            </a>
+            <nav>
+                <a href="{{ '/docs' | relative_url }}" class="active">Documentation</a>
+                <a href="{{ '/api' | relative_url }}">API</a>
+                <a href="{{ '/community' | relative_url }}">Community</a>
+                <a href="https://github.com/yourusername/cat-ai" class="github-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="sidebar">
+            <nav class="nav-menu">
+                <div class="nav-group">
+                    <h3>Getting Started</h3>
+                    <a href="{{ '/docs/introduction' | relative_url }}" class="nav-item">🚀 Introduction</a>
+                    <a href="{{ '/docs/quickstart' | relative_url }}" class="nav-item">⭐ Quick Start</a>
+                    <a href="{{ '/docs/faq' | relative_url }}" class="nav-item">❓ FAQ</a>
+                </div>
+                <div class="nav-group">
+                    <h3>Core Concepts</h3>
+                    <a href="{{ '/docs/agents' | relative_url }}" class="nav-item">🤖 Agents</a>
+                    <a href="{{ '/docs/providers' | relative_url }}" class="nav-item">🔌 Providers</a>
+                    <a href="{{ '/docs/actions' | relative_url }}" class="nav-item">⚡ Actions</a>
+                </div>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="language-selector">
+                <a href="#" class="active">English</a>
+                <a href="#">Español</a>
+                <a href="#">中文</a>
+            </div>
+            {{ content }}
+        </div>
+    </main>
+
+    <script>
+        // Dark mode toggle
+        const toggle = document.getElementById('theme-toggle');
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            toggle.innerHTML = document.body.classList.contains('dark-theme') 
+                ? '<i class="fas fa-sun"></i>' 
+                : '<i class="fas fa-moon"></i>';
+        });
+    </script>
+</body>
+</html> 
