@@ -1,22 +1,22 @@
-# Frequently Asked Questions
+# ❓ Frequently Asked Questions
 
-## General Questions
+## 🌟 General Questions
 
-### What is cat-ai?
+### 🤔 What is cat-ai?
 
 cat-ai is a Scalable Architecture for Synchronized Artificial Intelligence Systems. It provides a framework for building distributed AI applications with built-in synchronization capabilities.
 
-### Who should use cat-ai?
+### 👥 Who should use cat-ai?
 
 cat-ai is designed for developers and teams building distributed AI applications that require synchronization across multiple nodes or processes.
 
-### Is cat-ai production-ready?
+### 🚦 Is cat-ai production-ready?
 
 cat-ai is currently in active development. While we strive for stability, please thoroughly test it in your specific use case before deploying to production.
 
-## Technical Questions
+## 🔧 Technical Questions
 
-### What are the system requirements?
+### 💻 What are the system requirements?
 
 - Node.js 16.x or higher
 - TypeScript 4.x or higher

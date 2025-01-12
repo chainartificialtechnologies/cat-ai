@@ -1,22 +1,22 @@
-# Quickstart Guide
+# 🚀 Quickstart Guide
 
 This guide will help you get started with cat-ai quickly.
 
-## Installation
+## 📦 Installation
 
 Install cat-ai using npm:
 
 ```bash
-npm install cat-ai
+npm install  @chainartificialtechnologies/cat-ai
 ```
 
 Or using yarn:
 
 ```bash
-yarn add cat-ai
+yarn add  @chainartificialtechnologies/cat-ai
 ```
 
-## Basic Usage
+## 🎮 Basic Usage
 
 Here's a simple example to get you started:
 
@@ -37,7 +37,7 @@ async function main() {
 main().catch(console.error);
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 cat-ai can be configured with various options:
 
@@ -48,9 +48,9 @@ cat-ai can be configured with various options:
 }
 ```
 
-## Next Steps
+## 👣 Next Steps
 
-- Check out our [examples](../examples) directory for more complex use cases
-- Read the [Introduction](./Introduction.md) for a deeper understanding
-- See the [FAQ](./FAQ.md) for common questions
-- Join our community and consider [contributing](./Contributing.md)
+- 📚 Check out our [examples](../examples) directory for more complex use cases
+- 📖 Read the [Introduction](./Introduction.md) for a deeper understanding
+- ❓ See the [FAQ](./FAQ.md) for common questions
+- 🤝 Join our community and consider [contributing](./Contributing.md)
