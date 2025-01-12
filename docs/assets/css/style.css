@@ -13,9 +13,11 @@ body {
     line-height: 1.6;
 }
 
+/* Header adjustments */
 .header {
     background: var(--bg-color);
     border-bottom: 1px solid #eaecef;
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,120 +27,107 @@ body {
 .header .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 2rem;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-nav a {
-    margin-left: 2rem;
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.main {
-    display: flex;
-    margin-top: 60px;
-    min-height: calc(100vh - 60px);
-}
-
+/* Sidebar adjustments */
 .sidebar {
-    width: 300px;
+    width: 280px;
     background: var(--sidebar-bg);
-    padding: 2rem;
+    padding: 1.5rem;
     position: fixed;
     height: calc(100vh - 60px);
     overflow-y: auto;
+    border-right: 1px solid #eaecef;
 }
 
-.content {
-    flex: 1;
-    padding: 2rem;
-    margin-left: 300px;
-    max-width: 800px;
+.nav-group {
+    margin-bottom: 1.5rem;
 }
 
-.nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.nav-group h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
 }
 
 .nav-item {
-    padding: 0.5rem;
+    display: block;
+    padding: 0.35rem 1rem;
+    margin: 0.1rem 0;
     color: var(--text-color);
     text-decoration: none;
     border-radius: 4px;
+    font-size: 0.95rem;
 }
 
-.nav-item:hover {
-    background: rgba(0, 102, 255, 0.1);
+/* Content adjustments */
+.content {
+    padding: 2rem 2.5rem;
+    margin-left: 280px;
+    max-width: 850px;
 }
 
-/* Additional styles for better typography and code blocks */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-code {
-    background: var(--code-bg);
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-    font-size: 0.9em;
-    font-family: 'SF Mono', Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-}
-
-pre {
-    background: var(--code-bg);
-    padding: 1rem;
-    border-radius: 6px;
-    overflow-x: auto;
-}
-
-/* Dark mode toggle */
-.theme-toggle {
-    margin-left: 1rem;
-    padding: 0.5rem;
-    border-radius: 50%;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-}
-
-/* Language selector */
+/* Language selector improvements */
 .language-selector {
     display: flex;
-    gap: 1rem;
-    margin: 2rem 0;
-    padding: 1rem;
-    background: var(--sidebar-bg);
-    border-radius: 8px;
+    gap: 0.5rem;
+    margin: 1rem 0 2rem;
+    padding: 0;
+    background: none;
 }
 
 .language-selector a {
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
     border-radius: 4px;
     text-decoration: none;
     color: var(--text-color);
+    font-size: 0.9rem;
 }
 
 .language-selector a.active {
     background: var(--primary-color);
     color: white;
+}
+
+/* Typography improvements */
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.8rem;
+}
+
+/* Dark mode improvements */
+.dark-theme {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --sidebar-bg: #242424;
+    --code-bg: #2d2d2d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .content {
+        margin-left: 0;
+        padding: 1rem;
+    }
 } 
