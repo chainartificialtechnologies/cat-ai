@@ -4,16 +4,11 @@ This guide will help you get started with cat-ai quickly.
 
 ## 📦 Installation
 
-Install cat-ai using npm:
-
 ```bash
-npm install  @chainartificialtechnologies/cat-ai
-```
-
-Or using yarn:
-
-```bash
-yarn add  @chainartificialtechnologies/cat-ai
+# Note: Package name is tentative and not yet published
+npm install @chainartificialtechnologies/cat-ai
+# or
+yarn add @chainartificialtechnologies/cat-ai
 ```
 
 ## 🎮 Basic Usage
