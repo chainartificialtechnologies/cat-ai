@@ -1,5 +1,5 @@
 {
-  "name": "@chain-artificial/cat-ai",
+  "name": "@chainartificialtechnologies/cat-ai",
   "version": "0.1.0",
   "description": "A next-generation, modular AI agent framework for building autonomous systems that seamlessly interact across multiple platforms.",
   "main": "./dist/index.js",

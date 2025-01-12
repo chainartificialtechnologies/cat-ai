@@ -58,15 +58,15 @@ cat-ai/
 
 ```bash
 # Note: Package name is tentative and not yet published
-npm install @chain-artificial/cat-ai
+npm install @chainartificialtechnologies/cat-ai
 # or
-yarn add @chain-artificial/cat-ai
+yarn add @chainartificialtechnologies/cat-ai
 ```
 
 ## Quick Start
 
 ```typescript
-import { Agent, OpenAIProvider, TwitterInterface } from '@chain-artificial/cat-ai';
+import { Agent, OpenAIProvider, TwitterInterface } from '@chainartificialtechnologies/cat-ai';
 
 // Create and configure an agent
 const agent = new Agent({
