@@ -112,6 +112,11 @@ export class APIInterface implements InterfacePlugin {
   }
 
   // REST API endpoint handlers would go here
+  /** 
+   * @internal
+   * Will be used when HTTP/WebSocket server is implemented to handle incoming API commands
+   */
+  // @ts-ignore - Will be used when HTTP/WebSocket server is implemented
   private async handleCommand(command: string, params: Record<string, unknown>): Promise<void> {
     if (this.messageCallback) {
       const message = JSON.stringify({ command, params });

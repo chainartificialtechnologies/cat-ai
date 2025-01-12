@@ -16,9 +16,12 @@ export class TwitterInterface implements InterfacePlugin {
   public readonly version: string = '1.0.0';
   public readonly type = 'interface' as const;
 
+  // @ts-ignore - Will be used for event publishing when Twitter API is implemented
+  private eventBus: EventBus;
+
+  // @ts-ignore - Will be used when Twitter API client is implemented
   private config: TwitterConfig;
   private messageCallback?: (message: string) => Promise<void>;
-  private eventBus: EventBus;
 
   constructor(config: TwitterConfig) {
     this.id = `twitter-${uuidv4()}`;
@@ -27,47 +30,31 @@ export class TwitterInterface implements InterfacePlugin {
   }
 
   public async initialize(): Promise<void> {
-    // TODO: Implement Twitter API client initialization
-    console.log('Initializing Twitter interface...');
-
-    // Simulate stream connection
-    setInterval(() => {
-      this.simulateIncomingMessage();
-    }, 60000); // Simulate message every minute
+    // TODO: Implement Twitter API client initialization using this.config
+    // This will involve setting up the Twitter API client with the provided credentials
+    return Promise.resolve();
   }
 
   public async cleanup(): Promise<void> {
-    // TODO: Implement cleanup of Twitter API client
-    console.log('Cleaning up Twitter interface...');
+    // TODO: Cleanup Twitter API client resources
+    return Promise.resolve();
   }
 
   public async sendMessage(message: string): Promise<void> {
-    // TODO: Implement actual Twitter API call
-    console.log('Would tweet:', message);
-
-    this.eventBus.publish('message', this.id, {
-      platform: 'twitter',
-      channelId: 'timeline',
-      userId: 'self',
-      content: message,
-    });
+    // TODO: Implement sending messages via Twitter API
+    console.log('Would send Twitter message:', message);
+    return Promise.resolve();
   }
 
   public onMessage(callback: (message: string) => Promise<void>): void {
     this.messageCallback = callback;
   }
 
+  // @ts-ignore - Will be used when Twitter API streaming is implemented
   private simulateIncomingMessage(): void {
     if (this.messageCallback) {
-      const message = `Simulated Twitter mention: Hey @bot, what's the latest update? [${new Date().toISOString()}]`;
-      this.messageCallback(message);
-
-      this.eventBus.publish('message', this.id, {
-        platform: 'twitter',
-        channelId: 'mentions',
-        userId: 'simulated_user',
-        content: message,
-      });
+      const mockMessage = 'Simulated Twitter message';
+      this.messageCallback(mockMessage).catch(console.error);
     }
   }
 }

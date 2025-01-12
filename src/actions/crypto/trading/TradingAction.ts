@@ -23,6 +23,7 @@ export class TradingAction implements ActionPlugin {
 
   private config: TradingConfig;
   private eventBus: EventBus;
+  // @ts-ignore - Will be used to track orders when exchange integration is implemented
   private activeOrders: Map<string, any> = new Map();
 
   constructor(config: TradingConfig) {

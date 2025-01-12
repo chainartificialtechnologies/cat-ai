@@ -19,6 +19,7 @@ export class WalletAction implements ActionPlugin {
 
   private config: WalletConfig;
   private eventBus: EventBus;
+  // @ts-ignore - Will be used to store wallet instances when wallet management is implemented
   private wallets: Map<string, any> = new Map();
 
   constructor(config: WalletConfig) {
