@@ -1,0 +1,71 @@
+{
+  "name": "@chain-artificial/cat-ai",
+  "version": "0.1.0",
+  "description": "A next-generation, modular AI agent framework for building autonomous systems that seamlessly interact across multiple platforms.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "clean": "rm -rf dist",
+    "example": "ts-node examples/basic-agent.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainartificialtechnologies/cat-ai.git"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "framework",
+    "crypto",
+    "typescript",
+    "bot",
+    "autonomous",
+    "trading",
+    "wallet",
+    "defi"
+  ],
+  "author": "Chain Artificial Technologies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chainartificialtechnologies/cat-ai/issues"
+  },
+  "homepage": "https://github.com/chainartificialtechnologies/cat-ai#readme",
+  "dependencies": {
+    "openai": "^4.28.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
