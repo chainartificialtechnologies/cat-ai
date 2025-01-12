@@ -1,5 +1,7 @@
 # 👋 Introduction to cat-ai
 
+🌐 Languages: [English](./Introduction.md) | [Español](./es/Introduction.md) | [中文](./zh/Introduction.md)
+
 cat-ai is a Scalable Architecture for Synchronized Artificial Intelligence Systems. It provides a robust framework for building and deploying AI-powered applications with a focus on synchronization and scalability.
 
 ## ✨ Key Features

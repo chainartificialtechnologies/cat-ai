@@ -1,5 +1,7 @@
 # ❓ Frequently Asked Questions
 
+🌐 Languages: [English](./FAQ.md) | [Español](./es/FAQ.md) | [中文](./zh/FAQ.md)
+
 ## 🌟 General Questions
 
 ### 🤔 What is cat-ai?

@@ -33,6 +33,14 @@ The future of AI isn't just about chat interfaces – it's about autonomous agen
 - 🔧 **Extensible Architecture**: Easy to add new capabilities and integrations
 - 🔒 **Secure by Design**: Built with security best practices for handling sensitive operations
 
+## 📚 Documentation
+
+- Getting Started
+  - [Quickstart](docs/Quickstart.md) | [Español](docs/es/Quickstart.md) | [中文](docs/zh/Quickstart.md)
+  - [Introduction](docs/Introduction.md) | [Español](docs/es/Introduction.md) | [中文](docs/zh/Introduction.md)
+  - [FAQ](docs/FAQ.md) | [Español](docs/es/FAQ.md) | [中文](docs/zh/FAQ.md)
+  - [Contributing](docs/Contributing.md) | [Español](docs/es/Contributing.md) | [中文](docs/zh/Contributing.md)
+
 ## Architecture
 
 The framework is designed with modularity and extensibility at its core:

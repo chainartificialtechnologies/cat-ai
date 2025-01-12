@@ -1,5 +1,7 @@
 # 🤝 Contributing to cat-ai
 
+🌐 Languages: [English](./Contributing.md) | [Español](./es/Contributing.md) | [中文](./zh/Contributing.md)
+
 ## ✨ We'd Love Your Help!
 
 First off, thank you for considering contributing to cat-ai! We're thrilled that you're interested in helping make this project better. Every contribution, no matter how small, makes a huge difference to the project and is incredibly appreciated by our entire community! 

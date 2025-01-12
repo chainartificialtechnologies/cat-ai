@@ -1,5 +1,7 @@
 # 🚀 Quickstart Guide
 
+🌐 Languages: [English](./Quickstart.md) | [Español](./es/Quickstart.md) | [中文](./zh/Quickstart.md)
+
 This guide will help you get started with cat-ai quickly.
 
 ## 📦 Installation

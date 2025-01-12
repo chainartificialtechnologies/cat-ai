@@ -33,6 +33,14 @@ AI 的未来不仅仅是聊天界面 - 而是能够代表用户理解、决策�
 - 🔧 **可扩展架构**：易于添加新功能和集成
 - 🔒 **安全设计**：采用处理敏感操作的安全最佳实践
 
+## 📚 文档
+
+- 入门指南
+  - [快速入门](docs/zh/Quickstart.md) | [English](docs/Quickstart.md) | [Español](docs/es/Quickstart.md)
+  - [介绍](docs/zh/Introduction.md) | [English](docs/Introduction.md) | [Español](docs/es/Introduction.md)
+  - [常见问题](docs/zh/FAQ.md) | [English](docs/FAQ.md) | [Español](docs/es/FAQ.md)
+  - [贡献指南](docs/zh/Contributing.md) | [English](docs/Contributing.md) | [Español](docs/es/Contributing.md)
+
 ## 架构
 
 该框架的设计以模块化和可扩展性为核心：

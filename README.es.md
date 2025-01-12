@@ -33,6 +33,14 @@ El futuro de la IA no se trata solo de interfaces de chat – se trata de agente
 - 🔧 **Arquitectura Extensible**: Fácil de añadir nuevas capacidades e integraciones
 - 🔒 **Seguro por Diseño**: Construido con las mejores prácticas de seguridad para operaciones sensibles
 
+## 📚 Documentación
+
+- Comenzando
+  - [Inicio Rápido](docs/es/Quickstart.md) | [English](docs/Quickstart.md) | [中文](docs/zh/Quickstart.md)
+  - [Introducción](docs/es/Introduction.md) | [English](docs/Introduction.md) | [中文](docs/zh/Introduction.md)
+  - [Preguntas Frecuentes](docs/es/FAQ.md) | [English](docs/FAQ.md) | [中文](docs/zh/FAQ.md)
+  - [Contribución](docs/es/Contributing.md) | [English](docs/Contributing.md) | [中文](docs/zh/Contributing.md)
+
 ## Arquitectura
 
 El framework está diseñado con modularidad y extensibilidad en su núcleo:
