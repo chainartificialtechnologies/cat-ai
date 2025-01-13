@@ -27,7 +27,7 @@ cat-ai 实现了复杂的同步机制，确保分布式 AI 系统在不同节点
 
 ## 入门指南
 
-要开始使用 cat-ai，请查看我们的[快速入门指南](./Quickstart.md)或浏览我们的[示例](../../examples)目录。
+要开始使用 cat-ai，请查看我们的[快速入门指南](./Quickstart.md)或浏览我们的[示例](https://github.com/chainartificialtechnologies/cat-ai/tree/main/examples)目录。
 
 ## 需要帮助？
 

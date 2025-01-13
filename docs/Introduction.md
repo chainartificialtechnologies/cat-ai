@@ -27,7 +27,7 @@ By using TypeScript, cat-ai provides compile-time type checking and better tooli
 
 ## Getting Started
 
-To get started with cat-ai, check out our [Quickstart Guide](./Quickstart.md) or explore our [examples](../examples) directory.
+To get started with cat-ai, check out our [Quickstart Guide](./Quickstart.md) or explore our [examples](https://github.com/chainartificialtechnologies/cat-ai/tree/main/examples) directory.
 
 ## Need Help?
 

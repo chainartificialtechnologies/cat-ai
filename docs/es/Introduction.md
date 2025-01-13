@@ -27,7 +27,7 @@ Al usar TypeScript, cat-ai proporciona verificación de tipos en tiempo de compi
 
 ## Primeros Pasos
 
-Para comenzar con cat-ai, consulta nuestra [Guía de Inicio Rápido](./Quickstart.md) o explora nuestro directorio de [ejemplos](../../examples).
+Para comenzar con cat-ai, consulta nuestra [Guía de Inicio Rápido](./Quickstart.md) o explora nuestro directorio de [ejemplos](https://github.com/chainartificialtechnologies/cat-ai/tree/main/examples).
 
 ## ¿Necesitas Ayuda?
 
