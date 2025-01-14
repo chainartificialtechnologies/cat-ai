@@ -24,7 +24,7 @@ CAT-AI empowers developers to create intelligent, autonomous agents that break f
    /`.          ,'-`----Y   |
   |            ;        |   '
   |  ,-.    ,-'         |  /
-  |  | (   |        hjw | /
+  |  | (   |    cat-AI  | /
   )  |  \  `.___________|/
   `--'   `--'
 ```
