@@ -15,7 +15,7 @@ CAT-AI empowers developers to create intelligent, autonomous agents that break f
 - 🧩 **Learn and Adapt** through modular plugin architecture
 
 ## Why CAT-AI?
-
+```
   ,-.       _,---._ __  / \
  /  |    .-'       `./ /   \
 |  /   ,'            `/    /|
@@ -27,6 +27,7 @@ CAT-AI empowers developers to create intelligent, autonomous agents that break f
   |  | (   |        hjw | /
   )  |  \  `.___________|/
   `--'   `--'
+```
 
 The future of AI isn't just about chat interfaces – it's about autonomous agents that can understand, decide, and act on behalf of their users. CAT-AI provides the foundation for building these next-generation agents with:
 
