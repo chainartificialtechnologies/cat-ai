@@ -16,6 +16,18 @@ CAT-AI empowers developers to create intelligent, autonomous agents that break f
 
 ## Why CAT-AI?
 
+  ,-.       _,---._ __  / \
+ /  |    .-'       `./ /   \
+|  /   ,'            `/    /|
+ \  `-"             \'\   / |
+  `.              ,  \ \ /  |
+   /`.          ,'-`----Y   |
+  |            ;        |   '
+  |  ,-.    ,-'         |  /
+  |  | (   |        hjw | /
+  )  |  \  `.___________|/
+  `--'   `--'
+
 The future of AI isn't just about chat interfaces – it's about autonomous agents that can understand, decide, and act on behalf of their users. CAT-AI provides the foundation for building these next-generation agents with:
 
 - 🎯 **True Multi-Modal Interaction**: Your agent lives wherever your users are - Twitter, Bluesky, Farcaster, CLI, or custom interfaces
