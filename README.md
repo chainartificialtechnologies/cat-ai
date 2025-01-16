@@ -2,19 +2,12 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md)
 
-🤖 A next-generation, modular AI agent framework for building autonomous systems that seamlessly interact across multiple platforms.
+🐈 A next-generation, modular AI agent framework for building autonomous systems that seamlessly interact across multiple platforms.
 
-## Vision
-
+## 
 CAT-AI empowers developers to create intelligent, autonomous agents that break free from traditional chatbot limitations. By combining the power of large language models with crypto-native capabilities, CAT-AI enables a new breed of AI agents that can:
 
-- 🌐 **Operate Autonomously** across multiple platforms and protocols
-- 💹 **Execute Complex Trading Strategies** with configurable risk parameters
-- 🔐 **Manage Digital Assets** securely and efficiently
-- 🤝 **Engage with Users** through their preferred communication channels
-- 🧩 **Learn and Adapt** through modular plugin architecture
-
-## Why CAT-AI?
+## 
 ```
   ,-.       _,---._ __  / \
  /  |    .-'       `./ /   \
@@ -24,27 +17,26 @@ CAT-AI empowers developers to create intelligent, autonomous agents that break f
    /`.          ,'-`----Y   |
   |            ;        |   '
   |  ,-.    ,-'         |  /
-  |  | (   |    cat-AI  | /
+  |  | (   |    C.A.T.  | /
   )  |  \  `.___________|/
   `--'   `--'
 ```
 
-The future of AI isn't just about chat interfaces – it's about autonomous agents that can understand, decide, and act on behalf of their users. CAT-AI provides the foundation for building these next-generation agents with:
-
-- 🎯 **True Multi-Modal Interaction**: Your agent lives wherever your users are - Twitter, Bluesky, Farcaster, CLI, or custom interfaces
+- 🌐 **True Multi-Modal Interaction**: Your agent lives wherever your users are - Twitter, Bluesky, Farcaster, CLI, or custom interfaces
 - 🧠 **Flexible Intelligence**: Plug in any AI provider (OpenAI, Anthropic, Ollama) and switch between them seamlessly
+- 🤖 **Execute Autonomous Trading Strategies** with configurable parameters, and reliable and accurate data
 - 🔄 **Event-Driven Architecture**: React to market conditions, user messages, or system events in real-time
 - 🛡️ **Security-First Design**: Built with best practices for handling sensitive operations and user data
-- 🔌 **Plugin System**: Extend functionality without touching the core - add new interfaces, actions, or AI capabilities
+- 🔌 **Plugin System**: Extend functionality without touching the core - add new interfaces, actions, or tools
 
 ## Features
 
 - 🤖 **Modular Agent System**: Build and customize agents with plug-and-play components
-- 🔌 **Multiple AI Providers**: Support for OpenAI, Anthropic, Ollama, and more
-- 💬 **Multi-Platform Interface**: Interact through Twitter, Bluesky, Farcaster, CLI, and custom interfaces
-- 💰 **Crypto Integration**: Built-in support for wallet management and trading
-- 🔧 **Extensible Architecture**: Easy to add new capabilities and integrations
-- 🔒 **Secure by Design**: Built with security best practices for handling sensitive operations
+- 🐈 **meowNet**: Get real-time crypto signals and trading data
+
+## MeowNet 
+
+meowNet powers our agents with real-time crypto signals and trading data, to allow them to be more autonomous decisions and learn from the market. 
 
 ## 📚 Documentation
 
@@ -56,7 +48,7 @@ The future of AI isn't just about chat interfaces – it's about autonomous agen
 
 ## Architecture
 
-The framework is designed with modularity and extensibility at its core:
+Were building a modular framework with modularity and extensibility at its core:
 
 ```
 cat-ai/
@@ -111,9 +103,9 @@ agent.start();
 
 We're building the future of autonomous AI agents, and we'd love your help! Here are some areas where you can contribute:
 
-- 🔌 **New Interfaces**: Add support for more platforms (Discord, Telegram, Matrix, etc.)
-- 🧠 **AI Providers**: Integrate more AI models and providers
-- 💰 **DeFi Actions**: Implement new trading strategies and DeFi interactions
+- 🔌 **New Interfaces**: Add support for more platforms (Discord, Telegram, etc.)
+- 🧠 **AI Providers**: Integrate more models and providers, we want to support anything you're building on
+- 📈🐈 **DeFi Actions**: Contribute to MeowNet making our agents more autonomous and better traders
 - 🔧 **Core Improvements**: Enhance the framework's capabilities
 - 📚 **Documentation**: Help others build amazing agents
 
