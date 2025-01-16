@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { DateTime } from 'luxon';
-import { SIGNALS_CONFIG } from '../../../core/config/signals.config';
-import { CoinbasePrice, HistoricalPrice, SignalResponse } from '../interfaces/signals.interface';
+import { SIGNALS_CONFIG } from '../../../core/config/meowSignals.config';
+import { CoinbasePrice, HistoricalPrice, SignalResponse } from '../interfaces/meowSignals.interface';
 
 export class SignalsCalculatorService {
   async getBitcoinPrice(): Promise<number> {

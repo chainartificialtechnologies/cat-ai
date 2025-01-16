@@ -1,9 +1,9 @@
 import Fastify, { FastifyInstance } from 'fastify';
 import fastifyRateLimit from '@fastify/rate-limit';
 import fastifyCors from '@fastify/cors';
-import { SIGNALS_CONFIG } from '../../core/config/signals.config';
-import signalsPlugin from './plugins/signals.plugin';
-import { SignalsCalculatorService } from '../../actions/crypto/services/signals-calculator.service';
+import { SIGNALS_CONFIG } from '../../core/config/meowSignals.config';
+import signalsPlugin from './plugins/meowSignals.plugin';
+import { SignalsCalculatorService } from '../../actions/crypto/services/meowSignals-calculator.service';
 
 export class APIServer {
   private server: FastifyInstance;

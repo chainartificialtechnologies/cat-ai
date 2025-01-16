@@ -1,8 +1,8 @@
-import signalsPlugin from '../plugins/signals.plugin';
-import { SignalsCalculatorService } from '../../../actions/crypto/services/signals-calculator.service';
-import { signalsResponseSchema } from '../schemas/signals.schema';
+import signalsPlugin from '../plugins/meowSignals.plugin';
+import { SignalsCalculatorService } from '../../../actions/crypto/services/meowSignals-calculator.service';
+import { signalsResponseSchema } from '../schemas/meowSignals.schema';
 
-jest.mock('../../../actions/crypto/services/signals-calculator.service');
+jest.mock('../../../actions/crypto/services/meowSignals-calculator.service');
 
 describe('SignalsPlugin', () => {
   let mockFastify: any;

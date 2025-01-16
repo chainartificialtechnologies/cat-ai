@@ -1,4 +1,4 @@
-import { SignalsCalculatorService } from '../signals-calculator.service';
+import { SignalsCalculatorService } from '../meowSignals-calculator.service';
 import nock from 'nock';
 
 describe('SignalsCalculatorService', () => {

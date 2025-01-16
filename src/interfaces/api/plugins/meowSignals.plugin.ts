@@ -1,6 +1,6 @@
 import { FastifyInstance, FastifyPluginAsync } from 'fastify';
-import { SignalsCalculatorService } from '../../../actions/crypto/services/signals-calculator.service';
-import { signalsResponseSchema } from '../schemas/signals.schema';
+import { SignalsCalculatorService } from '../../../actions/crypto/services/meowSignals-calculator.service';
+import { signalsResponseSchema } from '../schemas/meowSignals.schema';
 
 interface SignalsPluginOptions {
   signalsCalculator: SignalsCalculatorService;
